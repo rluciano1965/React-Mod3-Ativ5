@@ -4,11 +4,27 @@ import { View, Text, Image } from 'react-native';
 
 const Apresentacao = () => {
 
-    return (
-        <View>
-            <Text>Aplicativo Cinema em Casa</Text>
-        </View>
+    const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+
+   
+    const Wrapper = styled.section`
+  padding: 4em;
+  background: papayawhip;
+`;
+
+   
+    render(
+        <Wrapper>
+            <Title>
+                Cinema em Casa
+            </Title>
+        </Wrapper>
     );
+
 }
 
 export default Apresentacao;
