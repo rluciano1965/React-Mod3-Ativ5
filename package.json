@@ -20,6 +20,7 @@
     "react-native-inappbrowser-reborn": "^3.6.3",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.6.0",
+    "react-native-styled-components": "^2.1.0",
     "styled-components-react-native": "^1.0.0"
   },
   "devDependencies": {
